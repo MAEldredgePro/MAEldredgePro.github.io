@@ -1,2 +1,2 @@
 # maeldredgepro.github.io
-Mike Eldredge's GitHub Pages website
+Mike Eldredge's GitHub Pages Website Repository
