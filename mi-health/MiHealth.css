@@ -1,0 +1,19 @@
+* {
+    font-family: sans-serif;
+ }
+
+ div.pane {
+    padding-left: 6%;
+ }
+
+ #header-pane {
+    background-color: lightgreen;
+    padding-bottom: 2.63%;
+ }
+ 
+ #menu-pane {
+    background-color: lightgray;
+    padding-right: 4.8%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+ }
