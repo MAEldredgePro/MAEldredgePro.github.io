@@ -39,7 +39,7 @@ div.pane {
 
 .meal {
   padding-inline: 30px;  
-  font-weight: 600;
+  font-weight: bold;
 }
 
 #menu-pane {
@@ -58,4 +58,30 @@ div.pane {
 
 .menu-item {
   width: 275px;
+  position: relative;
+}
+
+.menu-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+  font-weight: bold;
+}
+
+.menu-adjective {
+  background-color: white;
+  width: fit-content;
+  padding: 15px;
+}
+
+.menu-meal {
+  background-color: #8dc728;
+  width: 100px;
+  padding: 15px;
+  text-align: right;
 }
