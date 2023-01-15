@@ -1,9 +1,11 @@
 * {
-  font-family: sans-serif;
+  font-family: "Arial black";
 }
 
 body {
-  background-color: lawngreen;
+  background-color: #F4F4F4;
+  width: 1400px;
+  margin: 50px;
 }
 
  img {
@@ -26,19 +28,22 @@ div.pane {
 }
 
 #mihealth {
-  font-weight: 900;
+  font-weight: bold;
   font-size: 35px;
 }
+
 #mi { color: #ce2020; }
 #health { color: #8dc728; }
 
 #meals {
   display: flex;
   align-items: flex-end;
+  padding-right: 100px;
 }
 
 .meal {
   padding-inline: 30px;  
+  font-family: Arial;
   font-weight: bold;
 }
 
@@ -46,10 +51,29 @@ div.pane {
   background-image: url("images/background/lilypads.png");
   display: flex;
   
-  background-color: lightgray;
   padding-right: 65px;
   padding-top: 85px;
   padding-bottom: 85px;
+}
+
+#be-healthy-text {
+  width: 300px;
+  margin-right: 85px;
+}
+
+#be-healthy {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+#lorem-ipsum {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+#browse-menu {
+  font-family: Arial;
+  font-weight: bold;
 }
 
 #menu {
@@ -59,6 +83,7 @@ div.pane {
 .menu-item {
   width: 275px;
   position: relative;
+  margin: 10px;
 }
 
 .menu-text {
