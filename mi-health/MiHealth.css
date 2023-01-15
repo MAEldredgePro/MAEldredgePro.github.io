@@ -1,19 +1,55 @@
 * {
-    font-family: sans-serif;
- }
+  font-family: sans-serif;
+}
 
- div.pane {
-    padding-left: 6%;
- }
+body {
+  background-color: lawngreen;
+}
 
- #header-pane {
-    background-color: lightgreen;
-    padding-bottom: 2.63%;
- }
- 
- #menu-pane {
-    background-color: lightgray;
-    padding-right: 4.8%;
-    padding-top: 6%;
-    padding-bottom: 6%;
- }
+div.pane {
+  padding-left: 85px;
+}
+
+#header-pane {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: white;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#mihealth {
+  font-weight: 900;
+  font-size: 35px;
+}
+#mi { color: #ce2020; }
+#health { color: #8dc728; }
+
+#meals {
+  display: flex;
+  align-items: flex-end;
+}
+
+.meal {
+  padding-inline: 30px;  
+  font-weight: 600;
+}
+
+#menu-pane {
+  display: flex;
+  
+  background-color: lightgray;
+  padding-right: 65px;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+#menu {
+  display: flex;
+}
+
+.menu-item {
+  border: 5px;
+  border-color: black;
+}
