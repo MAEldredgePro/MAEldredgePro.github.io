@@ -4,8 +4,11 @@
 
 body {
   background-color: #F4F4F4;
-  width: 1400px;
-  margin: 50px;
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* align-items is not working */
 }
 
  img {
@@ -13,6 +16,9 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+/* #content-container {
+} */
 
 div.pane {
   padding-left: 85px;
@@ -48,7 +54,7 @@ div.pane {
 }
 
 #menu-pane {
-  background-image: url("images/background/lilypads.png");
+  background-image: url("assets/images/background/lilypads.png");
   display: flex;
   
   padding-right: 65px;
